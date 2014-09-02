@@ -1,0 +1,9 @@
+Package: com.uroboro.launchalert   
+Name: LaunchAlert
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Pop an alert when launching apps. Only for Theos testing purposes.
+Maintainer: uroboro <uroboro.845@gmail.com>
+Author: uroboro <uroboro.845@gmail.com>
+Section: Tweaks
