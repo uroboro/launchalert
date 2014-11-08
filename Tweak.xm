@@ -7,7 +7,7 @@
 #define ALERT(t, m) \
 	[[[[objc_getClass("UIAlertView") alloc] initWithTitle:(t) message:(m) delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease] show];
 
-@interface SBApplicationIcon
+@interface SBIcon
 - (NSString *)applicationBundleID;
 - (void)launch; // up to iOS 6
 - (void)launchFromLocation:(int)location; // iOS 7 and up
